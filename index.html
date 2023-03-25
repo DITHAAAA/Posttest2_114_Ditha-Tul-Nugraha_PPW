@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registrasi</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Login -->
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+
+                <form action="Home.html">
+                    <div class="input-field">
+                        <input type="text" placeholder="Masukkan email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Masukkan password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidepw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </div>
+
+                        <a href="#" class="text">Lupa password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <button><input type="button" value="Login"></button>
+                    </div>
+                </form>
+
+                <div class="login-daftar">
+                    <span class="text">Belum punya akun?
+                        <a href="#" class="text daftar-link">Daftar</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Daftar -->
+            <div class="form daftar">
+                <span class="title">Daftar</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Masukkan username" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Masukkan email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Tambahkan password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidepw"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Konfirmasi password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidepw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="dafCheck">
+                            <label for="dafgCheck" class="text">Remember me</label>
+                        </div>
+
+                        <a href="#" class="text">Lupa password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <button><input type="button" value="Daftar"></button>
+                    </div>
+                </form>
+
+                <div class="login-daftar">
+                    <span class="text">Belum punya akun?
+                        <a href="#" class="text login-link">Login</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <!-- header --> 
+    <div class="medsos">
+        <div class="container">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <h1><a href="Home.html">HELLO BIMBEL</a></h1>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Tutor.html">TUTOR</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                <li class="active"><a href="Daftar.html">DAFTAR</a></li>
+                <li><a href="Data.html">DATA</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- label -->
+    <section class="label">
+        <div class="container">
+            <p>Home / Daftar</p>
+        </div>
+    </section>
+
+    <!-- daftar -->
+    <div class="menu">
+        <form>
+          <div class="daftar_disini">
+            Nama :
+              <input type="text" id="daf_nama" required>
+              <br>
+            Email :
+              <input type="email" id="daf_email" required/>
+              <br>
+            Jenis Kelamin :
+              <input type="radio" id="l" name="Jenis Kelamin" value="laki-laki"> 
+              <label for="l">Laki-laki</label>
+              <input type="radio" id="p" name="Jenis Kelamin" value="perempuan"> 
+              <label for="p">Perempuan</label>
+              <br>
+            Jenjang Sekolah :
+            <select>
+                <option>SD</option>
+                <option>SMP</option>
+                <option>SMA</option>
+            </select>
+            Asal Sekolah :
+              <input type="asal_sekolah" id="daf_asal_sekolah" required>
+              <br>
+            Mata Pelajaran Yang Digemari :
+              <input type="checkbox"> Bahasa Indonesia
+              <input type="checkbox"> Matematika
+              <input type="checkbox"> Fisika
+              <input type="checkbox"> Kimia
+              <input type="checkbox"> Sejarah Indonesia
+              <input type="checkbox"> Seni Budaya
+              <input type="checkbox"> Biologi
+              <input type="checkbox"> Bahasa Inggris
+              <br>
+            Alasan Mendaftar di Hello Bimbel :
+              <textarea name="" id="alasan" cols="30" rows="10"></textarea>
+              <br>
+            <button type="submit" id="daftar">Daftar</button>
+          </div>
+        </form>
+      </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <small>copyright &copy 2023 - Hello Bimbel. All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+<script src="daftar.js"></script>
+</html>
